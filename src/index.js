@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Provider store={store}>
-      <BrowserRouter basename="/goit-react-hw-08-phonebook">
+      <BrowserRouter basename="/react-homework-template">
         <PersistGate loading={null} persistor={persistor}>
           <App />
         </PersistGate>
