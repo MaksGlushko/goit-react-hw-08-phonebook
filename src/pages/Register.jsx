@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
-import { registerThunk } from '../redux/auth/operations';
+import { registerThunk } from '../store/auth/operations';
 import { Link, useNavigate } from 'react-router-dom';
 // import { selectLoading } from '../redux/auth/selectors';
 

@@ -1,8 +1,8 @@
 import { Suspense } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, Outlet } from 'react-router-dom';
-import { logoutThunk } from 'redux/auth/operations';
-import { selectIsLoggedIn, selectUser } from 'redux/auth/selectors';
+import { logoutThunk } from 'store/auth/operations';
+import { selectIsLoggedIn, selectUser } from 'store/auth/selectors';
 import styled from 'styled-components';
 
 const Layout = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { selectIsLoggedIn } from '../../redux/auth/selectors'
+import { selectIsLoggedIn } from '../../store/auth/selectors'
 import { Navigate, useLocation } from 'react-router-dom'
 
 export const PrivateRoute = ({ children }) => {

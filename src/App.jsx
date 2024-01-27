@@ -7,8 +7,8 @@ import Layout from 'components/Layout/Layout';
 import { PrivateRoute } from 'components/Routes/PrivateRoute';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { refreshThunk } from 'redux/auth/operations';
-import { selectIsRefresh } from 'redux/auth/selectors';
+import { refreshThunk } from 'store/auth/operations';
+import { selectIsRefresh } from 'store/auth/selectors';
 
 const App = () => {
   const dispatch = useDispatch();

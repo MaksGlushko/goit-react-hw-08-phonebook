@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectContacts } from 'redux/contacts/selectors';
-import { addContactThunk } from 'redux/contacts/operations';
+import { selectContacts } from 'store/contacts/selectors';
+import { addContactThunk } from 'store/contacts/operations';
 
 const AddContacts = () => {
   const [state, setState] = useState({ name: '', number: '', id: '' });

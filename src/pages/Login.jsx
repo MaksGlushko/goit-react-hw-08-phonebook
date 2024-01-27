@@ -1,9 +1,9 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginThunk } from '../redux/auth/operations';
+import { loginThunk } from '../store/auth/operations';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
-import { selectIsLoggedIn } from '../redux/auth/selectors';
+import { selectIsLoggedIn } from '../store/auth/selectors';
 
 export const Login = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
